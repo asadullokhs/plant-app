@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+$green:#066F14;
+$textColor:#4A4A4A;
+
+.AboutUs{
+    padding-bottom: 128px;
+    .container{
+        .row{
+            .left{
+                img{
+                 height: 100%;
+                }
+            }
+            .right{
+                .title{
+                    b{
+                        color: $green;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 23px;
+                    }
+                    h2{
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 50px;
+                        margin-bottom: 30px;
+                        margin-top: 20px;
+                    }
+                    .first{
+                        color: $textColor;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        margin-bottom: 20px;
+                    }
+                    .second{
+                        color: $textColor;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        margin-bottom: 40px;
+                    }
+                    .read{
+                        padding: 16px 18px;
+                        background-color: $green;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+.Stars{
+    padding-bottom: 128px;
+    .head-title{
+        align-items: center;
+        text-align: center;
+        h2{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 50px;
+          padding-bottom: 24px;
+        }
+        span{
+            justify-content: center;
+            display: flex;
+            p{
+                padding-right: 24px;
+                cursor: pointer;
+                transition: all 0.3s linear;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                color: $textColor;
+                &:hover{
+                    color: $green;
+                }
+            }
+        }
+    }
+    .products{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 48px;
+        .item{
+            margin-right: 24px;
+            width: 30%;
+            text-align: center;
+            padding: 29px 32px;
+            margin-bottom: 40px;
+            .Rasm{
+                margin-left: 10px;
+            }
+            h2{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 28px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: left;
+            }
+            .star{
+                display: block;
+                margin-bottom: 10px;
+            }
+            b{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 18px;
+                text-align: left;
+                display: block;
+            }
+        }
+        .first{
+            background-color: #EAF2E5;
+        }
+        .second{
+            background-color: #F0EBE6;
+        }
+        .third{
+            background-color: #E2ECE4;
+        }
+        .fourth{
+            background-color: #E7EEED;
+        }
+    }
+    .view{
+        margin-left: 600px;
+        padding: 16px 18px;
+        background-color: $green;
+        color: white;
+        transition: all 0.3s linear;
+        &:hover{
+            border: 1px solid $green;
+            background-color: transparent;
+        }
+    }
+}
+.opinion{
+    padding-bottom: 164px;
+    .container{
+        .row{
+            position: relative;
+            .left{
+                .title{
+                    h2{
+                        font-size: 40px;
+                        font-weight: 700;
+                        line-height:50px ;
+                        margin-bottom: 12px;
+                    }
+                    p{
+                        color: $textColor;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        width: 502px;
+                    }
+                    .fikr{
+                        background-color: $green;
+                        height: 204px;
+                        padding: 20px 32px;
+                        position: absolute;
+                        width: 55%;
+                        top: 60;
+                        left: 0;
+                        .man{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 22px;
+                        }
+                        .rasm{
+                            width: 60px;
+                            margin-left: 50px   ;
+                        }
+                        p{
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 25px;
+                            color: #ECECEC;
+                            width: 500px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

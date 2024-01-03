@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+$green:#066F14;
+$textColor:#4A4A4A;
+
+.gul{
+    margin: 0 200px;
+    margin-bottom: 147px;
+    .row{
+        background-color: #DFFFE3;
+        .left{
+            .title{
+                padding: 60px;
+                h2{
+                    font-size: 35px;
+                    font-weight: 700;
+                    line-height: 50px;
+                }
+                p{
+                    margin-top: 15px;
+                    color: $textColor;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+                input{
+                    margin-top: 30px;
+                    border: none;
+                    padding: 8px 8px 8px 20px;
+                    border-radius: 10px;
+                    width: 320px;
+                    height: 56px;
+                }
+                button{
+                    height: 56px;
+                    margin-left: 15px;
+                    color: white;
+                    background-color: $green;
+                    padding: 11px 16px;
+                }
+            }
+        }
+    }
+}
+.footer{
+    padding-bottom: 100px;
+    .container{
+        .head-title{
+            text-align: center;
+            padding-bottom: 50px;
+            h2{
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 57px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25px;
+                color: $textColor;
+                margin-top: 12px;
+            }
+        }
+        .images{
+            text-align: center ;
+            padding-bottom: 128px;
+        }
+        .list{
+            padding-left: 70px;
+            .row{
+              .left{
+                .title{
+                    h2{
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 31px;
+                        margin-bottom: 24px;
+                    }
+                    p{
+                        margin-bottom: 22px;
+                        line-height: 25px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $textColor;
+                        width: 410px;
+                    }
+                }
+              }
+              .right{
+                justify-content: space-between;
+                ul{
+                    list-style: none;
+                 li{
+                    b{
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 31px;
+                        margin-bottom: 24px;
+                        display: block;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $textColor;
+                        line-height: 25px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 16px;
+                        display: block;
+                    }
+                 }
+                }
+              }
+            }
+        }
+    }
+}
